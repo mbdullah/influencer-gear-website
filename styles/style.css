@@ -14,6 +14,22 @@
   
   /* shared style start */
 
+  .text-size{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  .text-size2{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 25px;
+  }
+  .text-size3{
+    font-size: 14px;
+    font-weight: 700;
+
+  }
   
 .primary-color{
     color: rgba(58, 58, 58, 1);
@@ -109,6 +125,39 @@
     border-bottom: 2px solid rgba(14, 13, 13, 0.055);
     opacity: 0.9;
   }
+  /* main style start */
+
+  #card-section{
+    max-width: 1180px;
+    margin: 100px auto;
+    margin-top: 100px;
+  }
+
+  #card-section h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+
+    .card-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     row-gap: 30px;
+     column-gap: 30px;
+    }
+    .card-container>.card{
+      margin-bottom: 30px;
+      
+    }
+    .card .card-item{
+      box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.089);
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+    }
    
   /* responsive media query start */
 
