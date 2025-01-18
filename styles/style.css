@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-normal{
+    font-family: "Poppins", serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* shared style start */
+ 
+.primary-color{
+    color: rgba(58, 58, 58, 1);
+}
+.secondary-color{
+    color: rgba(24, 25, 31, 1);
+}
+.final-color{
+    color: rgba(120, 120, 133, 1);
+}
+.btn-primary{
+    background-color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+    color: white;
+    border: none;
+}
+.display-flex{
+    display: flex;
+}
+
+  /* header style start */
+  .hero-section{
+    max-width: calc(100% - 340px);
+    margin: 50px auto;
+  }
+
+  /* nav style */
+  .nav-style{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-style > h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(58, 58, 58, 1);
+}
+  ul > li{
+    list-style: none;
+    margin-left: 35px;
+  }
+  ul > li img{
+    width: 30px;
+    height: 30px;
+  }
+  ul > li a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-weight: 600;
+  }
+
+  /* banner style start */
+  .banner-container{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .banner-content-title{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .banner-content-description{
+    font-weight: 600;
+    max-width: 505px;
+    margin-bottom: 40px;
+  }
+  .banner-content2{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 480px;
+  }
+
+  .btn2{
+    border-radius: 40px;
+  }
+  /* company logo */
+  .icon-logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1180px;
+    margin: 100px auto;
+    padding: 50px;
+    border-top:  2px solid rgba(14, 13, 13, 0.055);
+    border-bottom: 2px solid rgba(14, 13, 13, 0.055);
+    opacity: 0.9;
+  }
+    
+  
+
+
+
+
+
+  /* main style start */
+
+
+
+
+
+  /* footer style start */
+
+
+
+
+  /* responsive media query start */
+
+  @media screen and (max-width: 576px) {
+    
+  }
+  
