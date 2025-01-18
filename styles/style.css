@@ -5,9 +5,16 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
   
   /* shared style start */
- 
+
+  
 .primary-color{
     color: rgba(58, 58, 58, 1);
 }
@@ -30,9 +37,11 @@
 }
 
   /* header style start */
+
+ 
   .hero-section{
-    max-width: calc(100% - 340px);
-    margin: 50px auto;
+    max-width: calc(100% - 300px);
+    margin: 100px auto;
   }
 
   /* nav style */
@@ -44,6 +53,10 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: rgba(58, 58, 58, 1);
+}
+.ul-class{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
   ul > li{
     list-style: none;
@@ -64,9 +77,10 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
+   
   }
   .banner-content-title{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -76,11 +90,9 @@
     max-width: 505px;
     margin-bottom: 40px;
   }
-  .banner-content2{
+ 
+  .banner-container>div>img{
     background-image: url(../images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 480px;
   }
 
   .btn2{
@@ -97,27 +109,68 @@
     border-bottom: 2px solid rgba(14, 13, 13, 0.055);
     opacity: 0.9;
   }
-    
-  
-
-
-
-
-
-  /* main style start */
-
-
-
-
-
-  /* footer style start */
-
-
-
-
+   
   /* responsive media query start */
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 600px) {
+    .nav-style{
+      flex-direction: column;
+      gap: 30px;
+    }
+    .banner-container{
+      flex-direction: column-reverse;
+      gap: 30px;
+      text-align: center;
+      
+    }
+    .nav-style>.ul-class{
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 50px;
+      row-gap: 30px;
+      text-align: center;
+    }
+    .banner-container>div>img{
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin: 10px auto;
+    }
     
-  }
+
+   .icon-logo{
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+    padding: 0;
+    column-gap: 50px;
+      row-gap: 30px;
+      justify-content: center;
+   }
+   .banner-content1>img{
+    width: 90;
+   }
+    }
+
+    /* medium device */
+    @media screen and (min-width: 600px) and (max-width: 1100px) {
+      .nav-style{
+        flex-direction: column;
+        gap: 30px;
+      }
+      .icon-logo{
+        grid-template-columns: repeat(4, 1fr);
+        border: none;
+        padding: 0;
+        column-gap: 50px;
+          row-gap: 30px;
+          justify-content: center;
+          text-align: center;
+       }
+       .banner-container{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+        gap: 50px;
+       }
+    }
+    
+   
   
