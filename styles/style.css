@@ -16,12 +16,10 @@
 
   
   /* shared style start */
-  body{
-    max-width: 1640px;
-    margin: 0 auto;
-  }
+  
+  
   body > section{
-    max-width: 1120px;
+    margin-top: 100px;
   }
 
   .text-size{
@@ -147,7 +145,7 @@
   .teams{
     align-items: center;
     max-width: 1120px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .teams>.team-image-container{
@@ -172,10 +170,54 @@
   font-size: 16px;
 }
 /* featured-content section start */
+#featured-section{
+  max-width: 1120px;
+  margin: 150px auto;
+}
+.featured-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
 .featured-content p{
   color: #6C6C6C;
  font-size: 16px;
  font-weight: 700;
+ margin: 15px auto;
+}
+.featured-content h2{
+  font-size: 38px;
+  font-weight: 700;
+  color: #0A0826;
+}
+/* footer style start */
+footer{
+  background-color: rgba(2, 2, 34, 0.925);
+}
+.footer-container{
+  text-align: center;
+  padding: 50px;
+  
+}
+.footer-content{
+  margin: 50px;
+ 
+}
+.footer-content > h3{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.footer-content>p{
+  font-size: 14px;
+  font-weight: 700;
+  color: #D9DBE1;
+  margin-bottom: 10px;
+}
+.footer-content img{
+  margin-right: 50px;
 }
   
    
@@ -228,6 +270,20 @@
     justify-items: center;
     
    }
+   #featured-section{
+    margin-top: 50px;
+   }
+   .featured-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;
+   }
+   .featured-content img{
+    width: calc(100% - 20px);
+    justify-items: center;
+   }
    
     }
 
@@ -263,6 +319,20 @@
        }
 
        .team-image-container > div > img{
+        width: 100%;
+        justify-items: center;
+       }
+       #featured-section{
+        margin-top: 50px;
+       }
+       .featured-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 30px;
+       }
+       .featured-content img{
         width: 100%;
         justify-items: center;
        }
