@@ -65,7 +65,7 @@
 
  
   .hero-section{
-    max-width: calc(100% - 500px);
+    max-width: calc(100% - 400px);
     margin: 100px auto;
   }
 
@@ -105,7 +105,7 @@
    
   }
   .banner-content-title{
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -116,7 +116,7 @@
     margin-bottom: 40px;
   }
  
-  .banner-container>div>img{
+  .main-camera{
     background-image: url(../images/Circle\ design.svg);
   }
 
@@ -206,10 +206,7 @@ footer{
   padding: 50px;
   
 }
-.footer-content{
-  margin: 50px;
- 
-}
+
 .footer-content > h3{
   font-size: 2rem;
   font-weight: 700;
@@ -223,8 +220,10 @@ footer{
   margin-bottom: 10px;
 }
 .footer-content img{
-  margin-right: 50px;
+  margin: 15px;
+  margin-top: 50px;
 }
+
   
    
   /* responsive media query start */
@@ -308,6 +307,7 @@ footer{
         flex-direction: column;
         gap: 30px;
       }
+      
       .icon-logo{
         grid-template-columns: repeat(4, 1fr);
         border: none;
