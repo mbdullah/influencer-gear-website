@@ -118,6 +118,8 @@
  
   .main-camera{
     background-image: url(../images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .btn2{
